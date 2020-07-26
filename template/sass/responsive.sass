@@ -1,0 +1,41 @@
+// Medium screens
+@media screen and ( max-width: 1300px )
+    .news 
+        .news__item
+            width: 90%    
+            
+// Mobile
+@media screen and ( max-width: 450px )
+    .menu 
+        flex-direction: column
+        align-items: flex-start
+
+        .menu__burger
+            display: flex
+
+        .menu__list
+            display: none
+            flex-direction: column
+            width: 100%
+
+            .menu__item
+                text-align: center
+
+        .menu__list.active
+            display: flex
+            
+
+    header .header__title
+        font-size: 45px
+
+    .news 
+        .news__item
+            flex-direction: column
+
+            .news__image
+                width: 100%
+
+            .news__content
+                padding-top: 1rem
+                width: 100%
+
